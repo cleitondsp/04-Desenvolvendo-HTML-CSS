@@ -1,0 +1,43 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family:  Arial;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    align-items:baseline;
+    padding-top: 120px;
+}
+
+.titFooterCod {
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+}
+
+.titFooter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.txtFooter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.gapFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
