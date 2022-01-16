@@ -44,6 +44,12 @@ body {
     ;
 }
 
+.btnLogin:hover {
+    background-color: #ffffff;
+    color: #D6000D; 
+    box-shadow: inset 0 0 0 4px #D6000D;
+}
+
 .section1 {
     padding-top: 130px;
     display: flex;
@@ -76,6 +82,10 @@ body {
     background-color: #D6000D;
     border-radius: 15px;
     margin-top: 40px;
+}
+
+.btn1:hover {
+    background-color: #700007;
 }
 
 .list {    
@@ -121,8 +131,12 @@ body {
     margin-left: 5px;
 }
 
+.btnLigamos:hover {
+    background-color: #700007;
+}
+
 .section2 {
-    padding-top: 200px;
+    padding-top: 180px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -130,6 +144,39 @@ body {
 
 .section2final {
     padding-top: 85px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    gap:  50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+    width: 600px;
+    height: 150px;
+    border-radius: 15px;
+    background:rgb(202, 202, 202);
+    letter-spacing: 1.5px;
+}
+
+.circulo {
+    margin-top: 25px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background: red;
+}
+
+.txt3 {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 
@@ -163,6 +210,7 @@ body {
     height: 400px;
     align-items:baseline;
     padding-top: 120px;
+    margin-top: 100px;
 }
 
 .titFooterCod {
