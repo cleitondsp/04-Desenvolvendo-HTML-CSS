@@ -14,11 +14,16 @@ Cinza (background do footer): #F9F9F9 */
     border: none;
 }
 
+.rodape {
+    width: 95%;
+}
+
 .box1 {
     padding: 45px;
     font-size: 21px;
     font-weight: bold;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #F9F9F9;
     border-top: 1px solid #b6b5b5;
@@ -69,3 +74,4 @@ Cinza (background do footer): #F9F9F9 */
     align-items: center;
     gap: 20px;
 }
+
