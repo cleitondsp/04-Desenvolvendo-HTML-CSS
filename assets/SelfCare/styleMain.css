@@ -62,5 +62,66 @@ body {
     border-radius: 7px;
 }
 
-/* Cores: Verde: #5CA720 - Preto: #161616 - Cinza (linhas divisórias): #A5A1A1
-                Cinza (background do footer): #F9F9F9 */
+.contatos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #A5A1A1;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: bold;
+    padding: 60px;
+    width: 95%;
+    height: 300px;
+    margin-top: 20px;
+    justify-content:space-between;
+}
+
+.contatos ul {
+    list-style: none;
+}
+
+.btnInscrever {
+    width: 155px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #5CA720;
+    border: none;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btnEmail {
+    width: 420px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #c0c0c0;
+    background-color: white;
+    border: 1px solid #A5A1A1;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #A5A1A1;
+    width: 95%;
+    height: 250px;
+}
+
+.rodape div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 25px;
+}
+
+
+
