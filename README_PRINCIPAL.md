@@ -11,4 +11,4 @@
 
 03 - Aprodundando em Flexbox, estudando sobre responsividade - responsividade melhorou :)
 
-04 - Desafio pra testar a responsividade aprendida no ultimo projeto
+04 - Desafio pra testar a responsividade aprendida no ultimo projeto - Esse ficou da hora! Mas ainda faltam detalhes
